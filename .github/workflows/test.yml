@@ -14,7 +14,7 @@ jobs:
     - name: Run container
       run: docker-compose up -d 
     
-    - uses: SanduDS/ngrok-tunneling-action@master
+    - uses: SanduDS/ngrok-tunneling-action@v0.0.1
       with:
         timeout: 1h
         port: 4000
